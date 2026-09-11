@@ -1,4 +1,20 @@
-Smplifai API & Web QA Test Suite
+# Quality Assurance Specialist
+**Testing Scope:** Manual, Integration & API Security Testing
+
+---
+
+## Test Cases
+
+### Test Case 1: Application Submission via UI & API Verification
+* **Category:** Integration Testing (Web UI + Backend API)
+* **Pre-conditions:** User is logged in; active Bearer Token is available.
+
+#### Execution Steps:
+1. Navigate to the **Smplifai** web application.
+2. Click the **'New Application'** button.
+3. Input valid details into the **'Email'** and **'Phone'** fields.
+4. Click **'Choose'** -> **'Browse files'** and upload the required document.
+5. Click **'Next'** and confirm the *"Document successfully uploaded"* notification.Smplifai API & Web QA Test Suite
 
 End-to-End Test Cases & API Verification Portfolio Documentation
 
