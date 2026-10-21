@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SemaEyvazli">
+  <a href="https://github.com/Samaya Heybatova">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&multiline=false&width=640&lines=%F0%9F%94%8D+Manual+QA+Engineer;%F0%9F%90%9E+Bug+hunter+%E2%80%94+UI%2C+API%2C+Mobile;%F0%9F%93%AE+Postman+%26+Swagger+API+Testing;%F0%9F%93%9D+Test+Plan+%E2%80%A2+Test+Case+%E2%80%A2+Bug+Report;%F0%9F%9A%80+Real+projects%3A+Smplifai+%26+OnlineTest" alt="Typing SVG" />
   </a>
 </p>
