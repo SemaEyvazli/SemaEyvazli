@@ -98,11 +98,13 @@ Negativ ssenari: token olmadan sorğu → **`401 Unauthorized`** (`"success": fa
 
 | Sənəd | Məzmun |
 |---|---|
-| 📋 [`README.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase#readme) — **Test Plan** | Objective, In/Out of Scope, Test Types, Environment, Entry/Exit Criteria, Risks & Mitigation, Deliverables |
+| 📋 [`Test Plan`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/6490f8c/README.md) | Objective, In/Out of Scope, Test Types, Environment, Entry/Exit Criteria, Risks & Mitigation, Deliverables |
 | 🧪 [`test-cases.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/test-cases.md) | 6 test keys: UI (My Application, Sign In) + API (GET 200, DELETE 200, 401 Unauthorized, 404 Not Found) |
 | ✅ [`Checklist.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/Checklist.md) | 13 yoxlama, 4 bölmə: Authentication, Application & File Upload, API Testing, UI/UX & Responsiveness |
 | 🐞 [`bugreport.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/bugreport.md) | 3 bug — Preconditions, Steps, Actual/Expected, Severity/Priority |
 | 📊 [`Test-Summary-Report.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/Test-Summary-Report.md) | Metrikalar, bug paylanması, yekun QA statusu |
+
+<sub>📊 Rəqəmlər <code>Test-Summary-Report.md</code>-dən götürülüb:</sub>
 
 ```text
 ┌────────────── Test Execution Summary ──────────────┐
@@ -135,7 +137,6 @@ OnlineTest platformasının mikroservis arxitekturasında **API Gateway → Swag
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SemaEyvazli&show_icons=true&theme=tokyonight&hide_border=true" />
   <img height="165" src="https://streak-stats.demolab.com/?user=SemaEyvazli&theme=tokyonight&hide_border=true" />
 </p>
 
@@ -213,18 +214,17 @@ OnlineTest platformasının mikroservis arxitekturasında **API Gateway → Swag
 
 ---
 
-## 💪 Bacarıqlar
+## 💪 Bacarıqlar — və sübutu
 
-```text
-Test Case Design        ██████████████████░░  90%
-Bug Reporting           ██████████████████░░  90%
-Test Documentation      █████████████████░░░  85%
-API Testing (Postman)   ████████████████░░░░  80%
-Swagger UI              ████████████████░░░░  80%
-UI / Mobile Testing     ████████████████░░░░  80%
-Jira / Agile            ███████████████░░░░░  75%
-SQL                     ████████████░░░░░░░░  60%
-```
+| Bacarıq | Harada tətbiq etmişəm |
+|---|---|
+| 🎯 **Test Design** (BVA, Negative, Error Guessing) | Səbətə `-1` məhsul, yanlış e-poçt formatı, çoxlu simvolla axtarış → [automation-exercise](https://github.com/SemaEyvazli/automation-exercise) |
+| 🧪 **Test Case yazılması** | Tələb sənədinin bölmələrinə bağlı keyslər (`2.1`, `2.4`) → [testcase.md](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/testcase.md), [test-cases.md](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/test-cases.md) |
+| 🔌 **API Testing** (Swagger, Postman, Bearer Token) | `POST 201`, `GET 200`, `DELETE 200`, `401`, `404` → [Smplifai API keysləri](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/application-delete-TC.md) |
+| 🧩 **Mikroservis API testi** | API Gateway → `taxonomy-service` → `POST /api/v1/exam-definitions` → [testonline.az](https://github.com/SemaEyvazli/testonline.az) |
+| 🐞 **Bug Reporting** (Severity / Priority) | 6 bug, hər birində Preconditions, Steps, Actual / Expected → [bugreport.md](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/bugreport.md) |
+| 📱 **UI / Mobile testing** | Android Chrome-da responsive xəta (BUG-003, High) |
+| 📝 **Test sənədləşməsi** | Test Plan → Checklist → Test Summary Report (tam STLC dövrü) |
 
 ---
 
