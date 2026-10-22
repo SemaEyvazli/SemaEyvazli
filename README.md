@@ -1,10 +1,10 @@
 <!-- ============ HEADER ============ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Sema%20Heybatov%C4%B1&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=QA%20Manual%20Engineer%20%E2%80%A2%20Sonic%20Academy%20Graduate&descAlignY=60&descSize=18" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Sema%20Heybatov&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=QA%20Manual%20Engineer%20%E2%80%A2%20Sonic%20Academy%20Graduate&descAlignY=60&descSize=18" alt="Sema Heybatov — QA Manual Engineer"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Samaya Heybatova">
+  <a href="https://github.com/SemaEyvazli">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&multiline=false&width=640&lines=%F0%9F%94%8D+Manual+QA+Engineer;%F0%9F%90%9E+Bug+hunter+%E2%80%94+UI%2C+API%2C+Mobile;%F0%9F%93%AE+Postman+%26+Swagger+API+Testing;%F0%9F%93%9D+Test+Plan+%E2%80%A2+Test+Case+%E2%80%A2+Bug+Report;%F0%9F%9A%80+Real+projects%3A+Smplifai+%26+OnlineTest" alt="Typing SVG" />
   </a>
 </p>
@@ -16,16 +16,12 @@
   <img src="https://img.shields.io/badge/Location-Baku%2C%20AZ-E34F26?style=for-the-badge&logo=googlemaps&logoColor=white"/>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SemaEyvazli&label=Profile%20views&color=0e75b6&style=flat" alt="profile views"/>
-</p>
-
 ---
 
 ## 👩‍💻 Haqqımda
 
 Mən **Sonic Academy**-nin **QA Manual** proqramını (**İyul – Oktyabr 2026**) bitirmiş, real layihələr üzərində təcrübə qazanmış Manual QA mütəxəssisiyəm.
-Təlim-təcrübə proqramı çərçivəsində iki canlı məhsulu test etmişəm:
+Təlim-təcrübə proqramı çərçivəsində iki canlı məhsulu test etmişəm, təlimdən sonra isə **OnlineTest** layihəsində **Sonic Lab** komandası ilə işləməyə davam edirəm.
 
 | | Layihə | Nədir | Mənim işim |
 |:-:|---|---|---|
@@ -39,39 +35,23 @@ Təlim-təcrübə proqramı çərçivəsində iki canlı məhsulu test etmişəm
 
 ## 📖 Repo Story — QA səyahətim
 
-Hər repo bu yolun bir mərhələsidir. Commit tarixçəsinə əsasən xronologiya:
+Commit tarixçəsinə əsasən xronologiya:
 
 ```mermaid
 timeline
     title Sema-nın QA yolu (2026)
-    İyul : simplifai-testcase — ilk test keyslər (Login, Registration, Logout, Application Lifecycle)
-         : simplifai-2 — Smplifai üzrə ilk 3 bug report
-         : automation-exercise — e-commerce saytında 3 bug
-    Sentyabr : SemaEyvazli — profil reposu
-             : backendtestcase — POST /api/applications (201 Created)
-             : smplifaitestcase — DELETE API + 401 negativ ssenari
-             : simplifaiapplicationtestcase — tam test sənədləşməsi başladı
+    İyul : automation-exercise — e-commerce saytında 3 bug
+         : Smplifai — ilk funksional test keyslər və ilk 3 bug report
+    Sentyabr : simplifaiapplicationtestcase — TC-001 (My Application)
+             : Smplifai API — POST 201 Created, DELETE 200 OK, 401 negativ ssenari
     Oktyabr : testonline.az — taxonomy-service API test keysi
-            : simplifaiapplicationtestcase — Test Summary Report və bug report refaktoru
+            : simplifaiapplicationtestcase — Checklist, Test Summary Report, bütün işlərin bir repoda toplanması
 ```
 
 <details open>
 <summary><b>🟢 Fəsil 1 — İlk addımlar (İyul)</b></summary>
 
 <br>
-
-**📁 [`simplifai-testcase`](https://github.com/SemaEyvazli/simplifai-testcase)**
-Smplifai-nin tələb sənədindəki (business requirements) bölmələrə əsasən ilk cədvəl formatlı test keyslər yazıldı:
-`2.1 Authentication & System Access` (Log In, Student Registration, Logout) və `2.4 Application Lifecycle` (Completeness Tracking). Hər keysdə Pre-conditions, Steps, Test Data, Expected Result və Status sütunları var.
-
-**📁 [`simplifai-2`](https://github.com/SemaEyvazli/simplifai-2)**
-Smplifai-də tapılan ilk 3 real xəta sənədləşdirildi:
-
-| ID | Xəta | Modul | Severity |
-|---|---|---|:-:|
-| BUG-001 | Şifrə sıfırlama e-poçtu istifadəçiyə çatmır | Password Reset | 🔴 High |
-| BUG-002 | Profil şəkli logout → login sonrası silinir | Profile | 🟠 Medium |
-| BUG-003 | Mobil cihazda düymə və panellər ekrandan çıxır | Mobile UI | 🔴 High |
 
 **📁 [`automation-exercise`](https://github.com/SemaEyvazli/automation-exercise)**
 Açıq demo saytda kəşfiyyat testi — sərhəd dəyərləri və validasiya xətaları:
@@ -82,6 +62,17 @@ Açıq demo saytda kəşfiyyat testi — sərhəd dəyərləri və validasiya x�
 | BUG-002 | "Contact Us" **yanlış formatlı e-poçtu** qəbul edir | Negative / Validation testing |
 | BUG-003 | Çoxlu simvolla axtarışda boş səhifə, "nəticə tapılmadı" mesajı yoxdur | Error Guessing |
 
+**📄 Smplifai — ilk funksional test keyslər** ([`testcase.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/testcase.md))
+Tələb sənədindəki bölmələrə əsasən cədvəl formatlı test keyslər: `2.1 Authentication & System Access` (Log In, Student Registration, Logout) və `2.4 Application Lifecycle` (Completeness Tracking).
+
+**📄 Smplifai — ilk real xətalar** ([`bugreport.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/bugreport.md))
+
+| ID | Xəta | Modul | Severity |
+|---|---|---|:-:|
+| BUG-001 | Şifrə sıfırlama e-poçtu istifadəçiyə çatmır | Password Reset | 🔴 High |
+| BUG-002 | Profil şəkli logout → login sonrası silinir | Profile | 🟠 Medium |
+| BUG-003 | Mobil cihazda düymə və panellər ekrandan çıxır | Mobile UI | 🔴 High |
+
 </details>
 
 <details open>
@@ -89,29 +80,29 @@ Açıq demo saytda kəşfiyyat testi — sərhəd dəyərləri və validasiya x�
 
 <br>
 
-**📁 [`backendtestcase`](https://github.com/SemaEyvazli/backendtestcase)** — `TC_APP_POST_001`
+**📄 [`TC_APP_POST_001`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/smplifai-application-testcase.md)**
 Bearer Token ilə `POST /api/applications` sorğusu → **`201 Created`**, cavab JSON-da obyektin `DRAFT` statusunda yaradıldığı yoxlanır.
 
-**📁 [`smplifaitestcase`](https://github.com/SemaEyvazli/smplifaitestcase)** — `TC_APP_DEL_001`
+**📄 [`TC_APP_DEL_001`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/application-delete-TC.md)**
 End-to-end ssenari: UI-da müraciət yarat → Swagger-də **Authorize** → `DELETE /api/applications/{id}` → **`200 OK`**.
 Negativ ssenari: token olmadan sorğu → **`401 Unauthorized`** (`"success": false`).
 
 </details>
 
 <details open>
-<summary><b>🟣 Fəsil 3 — Tam QA sənəd paketi (Sentyabr → Oktyabr)</b></summary>
+<summary><b>🟣 Fəsil 3 — Tam QA sənəd paketi (Oktyabr)</b></summary>
 
 <br>
 
-**📁 [`simplifaiapplicationtestcase`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase)** ⭐ *əsas portfolio layihəsi — 16 commit*
+**📁 [`simplifaiapplicationtestcase`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase)** ⭐ *əsas portfolio layihəsi*
 
 | Sənəd | Məzmun |
 |---|---|
-| 📋 `README.md` — **Test Plan** | Objective, In/Out of Scope, Test Types, Environment, Entry/Exit Criteria, Risks & Mitigation, Deliverables |
-| 🧪 `test-cases.md` | 6 test keys: UI (My Application, Sign In) + API (GET, DELETE, 401 Unauthorized, 404 Not Found) |
-| ✅ `Checklist.md` | 4 bölmə: Authentication, Application & File Upload, API Testing, UI/UX & Responsiveness |
-| 🐞 `bug-reports.md` | 3 bug — Steps to Reproduce, Actual/Expected, Severity/Priority |
-| 📊 `Test-Summary-Report.md` | Metrikalar, bug paylanması, yekun QA statusu |
+| 📋 [`README.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase#readme) — **Test Plan** | Objective, In/Out of Scope, Test Types, Environment, Entry/Exit Criteria, Risks & Mitigation, Deliverables |
+| 🧪 [`test-cases.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/test-cases.md) | 6 test keys: UI (My Application, Sign In) + API (GET 200, DELETE 200, 401 Unauthorized, 404 Not Found) |
+| ✅ [`Checklist.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/Checklist.md) | 13 yoxlama, 4 bölmə: Authentication, Application & File Upload, API Testing, UI/UX & Responsiveness |
+| 🐞 [`bugreport.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/bugreport.md) | 3 bug — Preconditions, Steps, Actual/Expected, Severity/Priority |
+| 📊 [`Test-Summary-Report.md`](https://github.com/SemaEyvazli/simplifaiapplicationtestcase/blob/main/Test-Summary-Report.md) | Metrikalar, bug paylanması, yekun QA statusu |
 
 ```text
 ┌────────────── Test Execution Summary ──────────────┐
@@ -134,25 +125,26 @@ OnlineTest platformasının mikroservis arxitekturasında **API Gateway → Swag
 ## 📊 Rəqəmlərlə
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Repositories-8-181717?style=flat-square&logo=github"/>
-  <img src="https://img.shields.io/badge/Commits-35%2B-181717?style=flat-square&logo=git&logoColor=F05032"/>
-  <img src="https://img.shields.io/badge/Test%20Cases-13%2B-2EA44F?style=flat-square&logo=testinglibrary&logoColor=white"/>
+  <img src="https://img.shields.io/badge/QA%20Repositories-3-181717?style=flat-square&logo=github"/>
+  <img src="https://img.shields.io/badge/Commits-30%2B-181717?style=flat-square&logo=git&logoColor=F05032"/>
+  <img src="https://img.shields.io/badge/Test%20Cases-12-2EA44F?style=flat-square&logo=testinglibrary&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Checklist%20Items-13-0A66C2?style=flat-square&logo=checkmarx&logoColor=white"/>
   <img src="https://img.shields.io/badge/Bugs%20Reported-6-D73A49?style=flat-square&logo=bugatti&logoColor=white"/>
   <img src="https://img.shields.io/badge/API%20Endpoints%20Tested-4-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
   <img src="https://img.shields.io/badge/Products%20Tested-3-6E40C9?style=flat-square&logo=databricks&logoColor=white"/>
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SemaEyvazli&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=SemaEyvazli&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SemaEyvazli&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://streak-stats.demolab.com/?user=SemaEyvazli&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
 ## 🎓 Sonic Academy — QA Manual (İyul – Oktyabr 2026)
 
-<details open>
-<summary><b>📚 Öyrənilən mövzular</b></summary>
+<details>
+<summary><b>📚 Öyrənilən mövzular (19 modul)</b></summary>
 
 <br>
 
@@ -185,12 +177,6 @@ OnlineTest platformasının mikroservis arxitekturasında **API Gateway → Swag
 ## 🧰 Alətlər & Texnologiyalar
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=postman,github,git,vscode,md,windows,linux,androidstudio,html,css,js,postgres,supabase,figma&perline=7" />
-  </a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
   <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
@@ -219,15 +205,11 @@ OnlineTest platformasının mikroservis arxitekturasında **API Gateway → Swag
 
 ## 🗂️ Repozitoriyalar
 
-| Repo | Layihə | Növ | Status |
+| Repo | Layihə | Məzmun | Status |
 |---|---|---|:-:|
-| ⭐ [simplifaiapplicationtestcase](https://github.com/SemaEyvazli/simplifaiapplicationtestcase) | Smplifai | Test Plan · Test Cases · Checklist · Bug Reports · Summary Report | ![](https://img.shields.io/badge/-complete-2EA44F?style=flat-square) |
-| [testonline.az](https://github.com/SemaEyvazli/testonline.az) | OnlineTest | API Test Case (taxonomy-service) | ![](https://img.shields.io/badge/-passed-2EA44F?style=flat-square) |
-| [smplifaitestcase](https://github.com/SemaEyvazli/smplifaitestcase) | Smplifai | API Test Case — DELETE + 401 | ![](https://img.shields.io/badge/-done-0A66C2?style=flat-square) |
-| [backendtestcase](https://github.com/SemaEyvazli/backendtestcase) | Smplifai | API Test Case — POST 201 | ![](https://img.shields.io/badge/-done-0A66C2?style=flat-square) |
-| [simplifai-2](https://github.com/SemaEyvazli/simplifai-2) | Smplifai | Bug Reports (3) | ![](https://img.shields.io/badge/-open%20bugs-D73A49?style=flat-square) |
-| [simplifai-testcase](https://github.com/SemaEyvazli/simplifai-testcase) | Smplifai | Functional Test Cases | ![](https://img.shields.io/badge/-done-0A66C2?style=flat-square) |
-| [automation-exercise](https://github.com/SemaEyvazli/automation-exercise) | Automation Exercise | Bug Reports (3) | ![](https://img.shields.io/badge/-open%20bugs-D73A49?style=flat-square) |
+| ⭐ [simplifaiapplicationtestcase](https://github.com/SemaEyvazli/simplifaiapplicationtestcase) | Smplifai | Test Plan · 11 test keys (UI + API) · Checklist · 3 Bug Report · Summary Report | ![](https://img.shields.io/badge/-complete-2EA44F?style=flat-square) |
+| [testonline.az](https://github.com/SemaEyvazli/testonline.az) | OnlineTest | API Test Case — `taxonomy-service` | ![](https://img.shields.io/badge/-passed-2EA44F?style=flat-square) |
+| [automation-exercise](https://github.com/SemaEyvazli/automation-exercise) | Automation Exercise | Exploratory testing · 3 Bug Report | ![](https://img.shields.io/badge/-open%20bugs-D73A49?style=flat-square) |
 
 ---
 
